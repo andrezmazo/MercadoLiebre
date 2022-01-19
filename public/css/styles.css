@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+} 
+
+/* //////////////////////////////////////////// */
+.amarillo{
+    background-color: #EAC926;
+}
+.azul{
+    color:#03264C ;
+}
+.celeste{
+    color: #1259c3;
+}
+.grisOscuro{
+    color:  #666;
+}
+.grisClaro{
+    color: #ebebeb
+}
+.verde{
+    color: #39b54a;;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.negrilla{
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: start;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+}
+
+header div.top-header p{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 30%;
+}
+
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    display: none;
+}
+
+header ul li{
+    list-style-type: none;
+    font-size: 1.5vw;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    font-size: 1.5vw;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+.filaLista{
+    display: NONE;
+}
+.filaLista1{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 4;
+}
+
+.filaLista2{
+    display: flex;
+    justify-content: space-around;
+    justify-items: flex-end;
+    flex-grow: 4;
+}
+.filaLista3{
+    flex-grow: 4;
+}
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #03264c;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: 1s; /* SE REALIZA LA TRANSICION LENTA PARA EL CARRITO DE COMPRAS*/
+
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+.barraInput{
+    font-size: 1rem;
+    color: gray;
+    padding: 15px;
+    border-radius: 5px;
+    border: white solid 0.2px;
+    margin-top: 5vh;
+    
+   
+
+}
+
+
+/* /////////////////////////////////////////////// */
+/* FOOTEER //////////////////////////////////////////// */
+
+
+footer{
+    text-align: center;
+    background-color: white;
+    color:  #666 ;
+}
+
+footer section i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section{
+    margin: 20px;
+}
+
+
+body header nav{
+    display: none;
+}
+
+.formulario{
+    background-color: #ebebeb;
+    border: blue solid 3px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    
+}
+.fechaDeN{
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: start;
+    justify-content: start;
+    padding-top: 40px; 
+}
+.textoPequeno{
+font-size: 1.8vw;
+text-align: start;
+}
+.enviarLogin{
+    background-color: blue;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFF;
+
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40vw;
+}
+.listaCheq{
+display: block;
+    text-align: start;
+}
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+
+    }
+    .filaLista{
+        display: flex;
+    }
+    div.burger-menu {
+        display: none;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+
+
+}
+/* TRANSICIONES */
+/* * TOCA COLOCAR TODO EL RECORRIDO PARA PODER COLOCAR EL HOVER */ */
+main section article:hover .description{
+    display: block;
+}
+
+/* COLOCAR EL CARRO DE MANERA VERTICAL */
+
+.fa-truck:hover{
+    transform: rotateZ(360deg);
+}
+
+/* SE COLOCA SOMBRA */
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* COLOREAR EL BOTON DE ENVIAR FORMULARIO*/
+.boton-enviar:hover{
+    background-color: #0022AA;
+}
