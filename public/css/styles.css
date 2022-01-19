@@ -305,7 +305,7 @@ display: block;
 }
 @media (min-width: 361px){
     main section article .description{
-        display: block;
+        display: none;
 
     }
     .filaLista{
@@ -345,14 +345,14 @@ display: block;
 
 }
 
-/* main section article.description:hover {
+main section article:hover .description{
     display: block;
-} */
+}
 
-/* 
+
 .fa-truck:hover{
     transform: rotateZ(360deg);
-} */
+}
 
 
 main section article:hover{
