@@ -235,7 +235,6 @@ article div.main-article{
     border: white solid 0.2px;
     margin-top: 5vh;
     
-   
 
 }
 
@@ -341,6 +340,9 @@ display: block;
     main section div.products article{
         width: 22%;
     }
+    footer div {
+        display: flex;
+    };
 
 
 }
@@ -362,4 +364,8 @@ main section article:hover{
 
 .boton-enviar:hover{
     background-color: #0022AA;
+}
+
+.celeste:hover{
+    color: #3f8cf1;
 }
