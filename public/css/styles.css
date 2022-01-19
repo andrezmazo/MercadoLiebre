@@ -349,6 +349,7 @@ display: block;
 
 main section article:hover .description{
     display: block;
+    transition: 1s
 }
 
 
