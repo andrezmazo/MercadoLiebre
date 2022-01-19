@@ -359,6 +359,7 @@ main section article:hover .description{
 
 main section article:hover{
     box-shadow: 0px 0px 20px rgb(100, 100, 100);
+    transition: 1s
 }
 
 
