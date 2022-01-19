@@ -344,24 +344,22 @@ display: block;
 
 
 }
-/* TRANSICIONES */
-/* * TOCA COLOCAR TODO EL RECORRIDO PARA PODER COLOCAR EL HOVER */ */
-main section article:hover .description{
+
+/* main section article.description:hover {
     display: block;
-}
+} */
 
-/* COLOCAR EL CARRO DE MANERA VERTICAL */
-
+/* 
 .fa-truck:hover{
     transform: rotateZ(360deg);
-}
+} */
 
-/* SE COLOCA SOMBRA */
+
 main section article:hover{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: 0px 0px 20px rgb(100, 100, 100);
 }
 
-/* COLOREAR EL BOTON DE ENVIAR FORMULARIO*/
+
 .boton-enviar:hover{
     background-color: #0022AA;
 }
